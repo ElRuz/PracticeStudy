@@ -10,8 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
 
-        <module>ali</module>
-
         <module>Minara</module>
 
         <module>Elbek1</module>
