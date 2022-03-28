@@ -6,12 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-// https://www.amazon.com/
-public class AmazonHomePage {
+// http://qa3.trycloud.net/index.php/login?clear=1
+public class US1_Pages {
 
+    @FindBy(id = "user")
+    public WebElement user;
 
+    @FindBy(id = "password")
+    public WebElement password;
 
-    public AmazonHomePage() {
+    @FindBy(id = "submit-form")
+    public WebElement loginButton;
+
+    public US1_Pages() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 }
